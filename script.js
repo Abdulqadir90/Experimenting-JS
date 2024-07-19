@@ -22,9 +22,17 @@
 
 // creating a function that calculates the bmi in weight and height
 
-function bmiCalculator(weight, height){ // inputs of weight and height
-    let bmi = weight / (height * height); // calculating the value of bmi (brackets because of order of importance)
-    return bmi; // to get the value of bmi out of the function
+// function bmiCalculator(weight, height){ // inputs of weight and height
+//     let bmi = weight / (height * height); // calculating the value of bmi (brackets because of order of importance)
+//     return bmi; // to get the value of bmi out of the function
+// }
+// let bmi = bmiCalculator(100, 1.9);
+// console.log(bmi);
+
+function bmiCalculator(weight, height){ 
+    let bmi = weight / Math.pow(height, 2); // method to the power of 2
+    return Math.round(bmi); // rounds up to a whole number
 }
 let bmi = bmiCalculator(100, 1.9);
 console.log(bmi);
+
