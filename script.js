@@ -29,10 +29,21 @@
 // let bmi = bmiCalculator(100, 1.9);
 // console.log(bmi);
 
-function bmiCalculator(weight, height){ 
-    let bmi = weight / Math.pow(height, 2); // method to the power of 2
-    return Math.round(bmi); // rounds up to a whole number
-}
-let bmi = bmiCalculator(100, 1.9);
-console.log(bmi);
+// function bmiCalculator(weight, height){ 
+//     let bmi = weight / Math.pow(height, 2); // method to the power of 2
+//     return Math.round(bmi); // rounds up to a whole number
+// }
+// let bmi = bmiCalculator(100, 1.9);
+// console.log(bmi);
+
+// let n = Math.random();
+// n = n * 5;
+// n = Math.floor(n) + 1;
+// console.log(n) // random numbers between 0 and 1, never reaches 1 but can be 0
+
+
+prompt("what is your name");
+prompt("what is your name?");
+
+
 
